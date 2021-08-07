@@ -45,7 +45,7 @@ So we can reverse the character `灩` like this:
 Like the codes below
 ```
 result =""
-chars = ['灩','捯','䍔','䙻','ㄶ','形','楴','獟','楮','獴','㌴','摟','潦','弸','彥','ㄴ','ㅡ','て','㝽','r']
+chars = ['灩','捯','䍔','䙻','ㄶ','形','楴','獟','楮','獴','㌴','摟','潦','弸','彥','ㄴ','ㅡ','て','㝽']
 for i in range(0,len(chars)):
     ch = ord(chars[i])
     r1 = chr(ch>>8)
