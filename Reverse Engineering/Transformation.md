@@ -42,7 +42,7 @@ So we can reverse the character `灩` like this:
 1. Shift `28777(0x7069)` 8 bit right to get `112(0x70)` and chr() it
 2. Take the last 8 bit of `28777(0x7069)` to get `105(0x69)` and chr() it
 
-Like the codes below
+Like the code below
 ```
 result =""
 chars = ['灩','捯','䍔','䙻','ㄶ','形','楴','獟','楮','獴','㌴','摟','潦','弸','彥','ㄴ','ㅡ','て','㝽']
